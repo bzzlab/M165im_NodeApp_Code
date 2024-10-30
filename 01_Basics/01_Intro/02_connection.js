@@ -1,14 +1,21 @@
 const mongoose = require('mongoose');
-let dbConfig = require('./db.config');
-async function main() {
-    let conString = `${dbConfig.HOST}/${dbConfig.DB}`;
-    console.log(`connect to ${conString}`);
-    await mongoose.connect(`${conString}`);
+const dbConfig = require('./db.config');
+async function main(){
+    let result;
+    try{
+        let conString = `${dbConfig.HOST}/${dbConfig.DB}`;
+        console.log(conString);
+        result = await mongoose.connect(conString);
+    }catch (err) {
+        result = err;
+    }
+    return result;
 }
 
 main()
     .then(data => {
-        console.log(data)
+        console.log(`Data: ${data}`)
         mongoose.connection.close();
-    })
-    .catch(err => console.log(err));
+    }).catch(err => {
+    console.error(err);
+})

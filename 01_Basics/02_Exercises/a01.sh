@@ -1,6 +1,6 @@
 <<'###'
 Task: Restore database with bash
-Program a bash-shellscript in order to restore airbnb database.
+Program a bash-shellscript in order to restore training database.
 ###
 #!/usr/bin/env bash
 #

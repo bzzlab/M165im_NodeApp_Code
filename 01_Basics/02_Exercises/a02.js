@@ -1,6 +1,6 @@
 /*
 Task: Implement and test connection
-Program a connection to airbnb by using config.js.
+Program a connection to training by using config.js.
 No hardcoded values for connection are allowed.
  */
 const mongoose = require('mongoose');

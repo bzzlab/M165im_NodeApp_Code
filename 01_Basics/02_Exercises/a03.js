@@ -1,6 +1,6 @@
 /*
 Task: Implement schema and some sample queries
-Program a connection to airbnb by using config.js.
+Program a connection to training by using config.js.
 No hardcoded values for connection are allowed.
  */
 const mongoose = require('mongoose');
@@ -23,7 +23,7 @@ async function main() {
 //??
 
 async function run() {
-    //find all companies by name.
+    //find all companies by name
 //??
 //??
 //??
