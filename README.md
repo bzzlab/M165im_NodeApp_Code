@@ -9,12 +9,13 @@ for your operating system.
 
 ### Project setup and running samples and apps
 1. Work with Webstorm or another JavaScript Editor. DataGrip is not suitable for this project.
-2. Go to the package.json file
-3. Install dependencies with
+2. Open a bash terminal
+3. Change directory (with cd- and ls-command) where the package.json file is located
+4. Install dependencies with command
 ```
 npm install
 ```
-4. Run the samples in the 01_Intro directory as follows
+5.Run the samples in the 01_Intro directory as follows
 ```
 node 01_connections.js
 node 02_connections.js

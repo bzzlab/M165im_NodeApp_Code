@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "Modul_165",
   "scripts": {
+    "00-step1": "node 01_Basics/00_Demo/01_connection.js",
     "01-step1": "node 01_Basics/01_Intro/01_connection.js",
-    "01-step2": "node 01_Basics/01_Intro/02_connection.js",
-    "01-step3": "node 01_Basics/01_Intro/03_query.js",
-    "01-step4": "node 01_Basics/01_Intro/04_query.js"
+    "01-step2": "node 01_Basics/00_Demo/02_connection.js",
+    "01-step3": "node 01_Basics/00_Demo/03_query.js",
+    "01-step4": "node 01_Basics/01_Intro/04_query.js",
+    "01-a02": "node 01_Basics/02_Exercises/a02.js"
   },
   "keywords": [
     "m165",
@@ -17,6 +19,8 @@
   "license": "ISC",
   "dependencies": {
     "mongo": "^0.1.0",
-    "mongoose": "^7.5.2"
+    "mongodb": "^6.20.0",
+    "mongoose": "^8.19.2",
+    "whatwg-url": "^15.1.0"
   }
 }
