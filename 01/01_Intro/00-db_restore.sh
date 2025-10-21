@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 #
+# ## M165 im ~/.bash_profile
+# export MONGODB='/c/Program Files/MongoDB/Server'
+# export PATH=$MONGODB/tools/bin:$MONGODB/mongosh/bin:$PATH
 profile=~/.bash_profile
 db=mflix
 clear

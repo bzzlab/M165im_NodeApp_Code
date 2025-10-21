@@ -3,7 +3,7 @@ let dbConfig = require('./db.config');
 async function main() {
     let conString = `${dbConfig.HOST}/${dbConfig.DB}`;
     console.log(`connect to ${conString}`);
-    await mongoose.connect(`${conString}`, {useNewUrlParser:true, useUnifiedTopology:true});
+    await mongoose.connect(`${conString}`);
 }
 
 //One schema used
