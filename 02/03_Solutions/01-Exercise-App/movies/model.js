@@ -74,7 +74,7 @@ module.exports = class Movie {
      */
     async getMoviesCount(findFilter) {
         //see example https://www.geeksforgeeks.org/mongoose-document-model-count-api/
-        return await this.modelMovie.count(findFilter)//??
+        return await this.modelMovie.countDocuments(findFilter)//??
             .then(count => {//??
                     return `Movies in year ${findFilter.value}: ${count} movies`;//??
             })//??
