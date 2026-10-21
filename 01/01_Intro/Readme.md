@@ -1,0 +1,1 @@
+Restore database ```sample_mflix``` (if not already done) before programming JavaScripts.

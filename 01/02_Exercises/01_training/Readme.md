@@ -1,0 +1,1 @@
+Restore database ```training``` before programming JavaScripts.
